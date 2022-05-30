@@ -1,4 +1,4 @@
-### Profile-Page
+# Profile-Page
 Projeto desenvolvido para prática Front-End, funcionando como uma página de perfil profissional.
 Funcionalidades: responsividade, botão de dark theme, botão me contrate realiza o download do meu currículo.
 
@@ -15,7 +15,7 @@ refactor: (Refatoração de código)
 test: (Testes criados para os códigos)
 chore: (Atualização de tarefas e bibliotecas)
 
-# Mais Referências:
+### Mais Referências:
 https://www.conventionalcommits.org/
 
 ## Como começar:
