@@ -12,7 +12,8 @@ html {
     --bg-panel: -webkit-linear-gradient(30deg, #fff 50%, #B0E0E6 50%);
     --color-text: #000000;
     --hover-color: pink;
-    --color-headings: #4682B4;
+    --color-title: #f37a6c;
+    --color-headings: #663399;
     --botao-conteudo: #FFF2EF;
     --segundo-conteudo: #F5FFFA;
 }
@@ -47,32 +48,52 @@ body {
 .cabecalho {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    max-width: 980px;
+    padding: 20px 0px;
+    margin: auto;
 }
 
-.cabecalhoTitulo {
-    font-size: 20px;
+.cabecalho h3{
+    font-size: 28px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--color-text);
-}
-
-.cabecalhoMenu {
     display: flex;
     flex-direction: row;
     gap: 32px;
 }
 
-.cabecalhoMenuItem {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+.cabecalho nav ul {
+  display: flex;
 }
 
-a{
-    text-decoration: none;
+.cabecalho ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
     color: var(--color-text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cabecalho nav ul li {
+  list-style: none;
+}
+
+.cabecalho nav ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  text-transform: uppercase;
+  font-size: 15px; 
+  padding: 20px;
+  transition: all 250ms linear 0s;
 }
 
 a:link {
@@ -94,28 +115,31 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
 }
 
 .conteudoPrincipalEscrito {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin: 30px;
+    margin: auto;
 }
 
 .conteudoPrincipalSubtitulo {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 4000;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 35px;
     color: var(--color-text);
 }
 
 .conteudoPrincipalTitulo {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-    color: var(--color-headings);
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--color-title);
 }
 
 .conteudoPrincipalTexto {
@@ -123,6 +147,7 @@ a:hover {
     font-weight: 400;
     font-size: 16px;
     color: var(--color-text);
+    line-height: 25px;
 }
 
 .conteudoPrincipalBotao {
@@ -134,7 +159,7 @@ a:hover {
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--color-text);
 }
 
@@ -149,31 +174,35 @@ button:hover {
     margin: 20px;
 }
 
+.segundoConteudoContainer {
+    background-color: var(--segundo-conteudo);
+    width: 100%;
+}
+
 .segundoConteudo {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    justify-content: space-around;
-    background-color: var(--segundo-conteudo);
+    justify-content: center;
+    align-items: flex-start;
     font-family: 'Montserrat', sans-serif;
+    gap: 25px;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    line-height: 25px;
     font-size: 16px;
     font-weight: 400;
+    color: var(--color-text);
 }
 
 .conteudoEscrito {
-    width: 780px;
-    padding: 20px;
-    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .conteudoTitulo {
-    margin-bottom: 15px;
-}
-
-.conteudoPortfolio {
-    width: 625px;
-    padding: 20px;
-    margin: 25px;
+    margin: 25px 0px;
 }
 
 .portfolio {
@@ -193,10 +222,12 @@ button:hover {
 footer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 20px;
+    width: 90%;
+    max-width: 980px;
+    gap: 50px;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -207,7 +238,9 @@ footer div {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: auto;
     gap: 8px;
+    padding: 20px 0px;
 }
 
 .logo {

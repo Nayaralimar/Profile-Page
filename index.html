@@ -3,30 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <meta name="author" content="Nayara de Lima Ramos"/>
+
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name= "description" content="Minha página de perfil profissional">
-    <title>Profile</title>
+    <title>Nayara Ramos - Profile</title>
+    <link
+      rel="shortcut icon"
+      href="star-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-
-    <div class="container">
-        <div class="botaoDark">
-            <h3>Dark Theme</h3>
-            <div class="toggle">
-                <input id="switch" type="checkbox" name="theme">
-                <label for="switch">Toggle</label>
-            </div>
-        </div>
-    
+<body>    
     <header class="cabecalho">
-        <h3 class="cabecalhoTitulo">Profile Page</h3>
-        <nav class="cabecalhoMenu">
-            <a class="cabecalhoMenuItem" href="#home">Home</a>
-            <a class="cabecalhoMenuItem" href="#sobre">Sobre</a>
-            <a class="cabecalhoMenuItem" href="#portfolio">Portfolio</a>
-            <a class="cabecalhoMenuItem" href="#contato">Contato</a>
+        <h3>Profile Page</h3>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <div class="toggle">
+                    <input id="switch" type="checkbox" name="theme">
+                    <label for="switch">Dark Mode</label>
+                </div>
+            </li>
+            </ul>
         </nav>
     </header>
 
@@ -36,15 +43,16 @@
             <div class="conteudoPrincipalEscrito">
                 <h2 class="conteudoPrincipalSubtitulo">Olá, eu sou<a name="home"></a></h2>
                 <h1 class="conteudoPrincipalTitulo">Nayara de Lima Ramos</h1>
-                <p class="conteudoPrincipalTexto">Front-End Developer</p>
-                <button class="conteudoPrincipalBotao"><a href="/src/arquivo/CurriculoNayaraRamos.pdf" download="CurriculoNayaraRamos">Me Contrate</a></button>
+                <p class="conteudoPrincipalTexto">Front-End Developer<br>Apaixonada por desenvolvimento, inovação e design.<br>Qualidades básicas: proativa, didática e contínuo interesse em aprender mais.</p>
+                <button class="conteudoPrincipalBotao"><a href="/arquivo/CurriculoNayaraRamos.pdf" download="CurriculoNayaraRamos">Me Contrate</a></button>
             </div>
             <div class="diagonal">
-                <img class="imagemProfile" src="/src/images/profilePicture.jpeg" alt="Foto de rosto da Nayara">
+                <img class="imagemProfile" src="/images/profilePicture.jpeg" alt="Foto de rosto da Nayara">
             </div>
         </section>
 
-        <section class="segundoConteudo">
+        <section class="segundoConteudoContainer">
+            <div class="segundoConteudo">
             <div class="conteudoEscrito">
                     <h2 class="conteudoTitulo">Sobre<a name="sobre"></a></h2>
                     <p>Desenvolvedora front-end, entusiasta por troca de conhecimentos, experiências e novas tecnologias. <br><br> Minha primeira formação, distinta do campo da tecnologia, foi em licenciatura e bacharelado em Geografia pela FCT Unesp, a qual agregou muito em minha didática. <br><br> Após conhecer melhor a área da tecnologia, acabei descobrindo que a minha paixão no âmbito profissional, estava em uma área diferente, na programação. <br><br>
@@ -55,9 +63,10 @@
                 <h2 class="conteudoTitulo">Portfolio<a name="portfolio"></a></h2>
                 <p>No link abaixo você pode conferir alguns dos projetos desenvolvidos durante meus estudos.</p>
                 <div class="portfolio">
-                    <img class="logoGitHub" src="/src/images/logoGitHub.png" alt="Logo do GitHub">
-                    <a href="https://github.com/Nayaralimar">Visite o meu GitHub - Nayara de Lima Ramos</a>
+                    <img class="logoGitHub" src="/images/logoGitHub.png" alt="Logo do GitHub">
+                    <a href="https://github.com/Nayaralimar" target="_blank">Visite o meu GitHub - Nayara de Lima Ramos</a>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -65,24 +74,24 @@
 
     <footer><a name="contato"></a>
         <div>
-            <img class="logo" src="/src/images/logoLinkedIn.jpg" alt="Logo do LinkedIn">
-            <a href="https://www.linkedin.com/in/nayara-lima-ramos/">Nayara de Lima Ramos</a>
+            <img class="logo" src="/images/logoLinkedIn.jpg" alt="Logo do LinkedIn">
+            <a href="https://www.linkedin.com/in/nayara-lima-ramos/" target="_blank">Nayara de Lima Ramos</a>
         </div>
 
         <div>
-            <img class="logo" src="/src/images/logoTelefone.png" alt="Imagem de um telefone">
+            <img class="logo" src="/images/logoTelefone.png" alt="Imagem de um telefone">
             <p>(18) 99810-4134</p>
         </div>
 
         <div>
-            <img class="logo" src="/src/images/logoEmail.png" alt="Imagem de um e-mail">
+            <img class="logo" src="/images/logoEmail.png" alt="Imagem de um e-mail">
             <p>nayara.l.r@hotmail.com</p>
         </div>
     </footer>
 
     </div>
 
-    <script src="/src/scripts.js"></script>
+    <script src="scripts.js"></script>
 
 </body>
 

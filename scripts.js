@@ -11,6 +11,7 @@ const initialColors = {
     bg: getStyle(html, "--bg"),
     bgPanel: getStyle(html, "--bg-panel"),
     colorHeadings: getStyle(html, "--color-headings"),
+    colorTitle: getStyle(html, "--color-title"),
     colorText: getStyle(html, "--color-text"),
     botaoConteudo: getStyle(html, "--botao-conteudo"),
     segundoConteudo: getStyle(html, "--segundo-conteudo"),
@@ -19,9 +20,10 @@ const initialColors = {
 const darkMode = {
     bg: "#333333",
     bgPanel: "#434343",
+    colorTitle: "#FFFFFF",
     colorHeadings: "#3664FF",
-    colorText: "#B5B5B5",
-    botaoConteudo: "#4F4F4F",
+    colorText: "#FFFFFF",
+    botaoConteudo: "#3664FF",
     segundoConteudo: "#696969",
 
 }
