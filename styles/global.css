@@ -3,23 +3,23 @@
 
 html {
     --bg: #fff;
-    --bg-panel: -webkit-linear-gradient(30deg, #fff 50%, #B0E0E6 50%);
+    /* --bg-panel: -webkit-linear-gradient(30deg, #fff 50%, #B0E0E6 50%); */
     --color-text: #000000;
     --hover-color: pink;
     --color-title: #f37a6c;
     --color-headings: #663399;
     --botao-conteudo: #FFF2EF;
     --segundo-conteudo: #F5FFFA;
+    --menu-mobile: #B0E0E6;
 }
 
 body {
-    font-size: 100%;
-    width: 100%;
+    /* font-size: 100%; */
+    height: 100vh;
+    margin: 0 auto;
     min-width: 800px;
-    height: auto;
-    min-height: 600px;
     background-color: var(--bg);
-    background-image: var(--bg-panel);
+    /* background-image: var(--bg-panel); */
 
     grid-template-areas: 
         "title switch"

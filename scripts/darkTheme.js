@@ -15,6 +15,7 @@ const initialColors = {
     colorText: getStyle(html, "--color-text"),
     botaoConteudo: getStyle(html, "--botao-conteudo"),
     segundoConteudo: getStyle(html, "--segundo-conteudo"),
+    menuMobile :getStyle(html, "--menu-mobile"),
 }
 
 const darkMode = {
@@ -25,6 +26,7 @@ const darkMode = {
     colorText: "#FFFFFF",
     botaoConteudo: "#3664FF",
     segundoConteudo: "#696969",
+    menuMobile: "#696969",
 
 }
 

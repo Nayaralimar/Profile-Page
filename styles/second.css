@@ -28,6 +28,8 @@
 
 .conteudoTitulo {
     margin: 25px 0px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .portfolio {
@@ -42,4 +44,31 @@
     height: 40px;
     width: 40px;
     border-radius: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .segundoConteudo {
+        font-size: 14px;
+    }
+
+    .conteudoTitulo {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .segundoConteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        line-height: 20px;
+        width: 80%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .conteudoTitulo {
+        font-size: 20px;
+    }
 }
