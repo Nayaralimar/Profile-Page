@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Roboto&family=Sarala&display=swap');
+
+
+html {
+    --bg: #fff;
+    --bg-panel: -webkit-linear-gradient(30deg, #fff 50%, #B0E0E6 50%);
+    --color-text: #000000;
+    --hover-color: pink;
+    --color-title: #f37a6c;
+    --color-headings: #663399;
+    --botao-conteudo: #FFF2EF;
+    --segundo-conteudo: #F5FFFA;
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    min-width: 800px;
+    height: auto;
+    min-height: 600px;
+    background-color: var(--bg);
+    background-image: var(--bg-panel);
+
+    grid-template-areas: 
+        "title switch"
+        "content content"
+    ;
+}

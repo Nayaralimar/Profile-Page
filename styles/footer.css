@@ -1,0 +1,30 @@
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 980px;
+    gap: 50px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 8px;
+    padding: 20px 0px;
+}
+
+.logo {
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+}

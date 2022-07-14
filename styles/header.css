@@ -1,0 +1,120 @@
+
+.botaoDark {
+    display: flex;
+    margin: 20px 20px 0px 10px;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: var(--color-text);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    max-width: 980px;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.cabecalho h3{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.cabecalho nav ul {
+  display: flex;
+}
+
+.cabecalho ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    color: var(--color-text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cabecalho nav ul li {
+  list-style: none;
+}
+
+.cabecalho nav ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  text-transform: uppercase;
+  font-size: 15px; 
+  padding: 20px;
+  transition: all 250ms linear 0s;
+}
+
+a:link {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 52px;
+    height: 27px;
+    background: grey;
+    float: right;
+    border-radius: 100px;
+    position: relative;
+}
+
+label::after{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked + label {
+    background-color: var(--color-headings);
+}
+
+input:checked + label::after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+label:active:after {
+    width: 45px;
+}
