@@ -25,3 +25,12 @@ Execute a rota em seu servidor, utilizei o Live Server (extensão do Visual Stud
 
 ## Tecnologias utilizadas - frontend:
 JavaScript - responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos.
+
+## O projeto:
+<p align="center">
+  <img width="460" height="300" src="/gifs/profile-page.gif">
+</p>
+
+<p align="center">
+  <img width="460" height="300" src="/gifs/profile-page-lighthouse.gif">
+</p>
