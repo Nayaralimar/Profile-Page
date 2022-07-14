@@ -1,6 +1,6 @@
 # Profile-Page
 Projeto desenvolvido para prática Front-End, funcionando como uma página de perfil profissional.<br>
-Funcionalidades: responsividade, botão de dark theme, botão me contrate realiza o download do meu currículo.
+Funcionalidades: responsividade, botão de dark theme, botão me contrate realiza o download do meu currículo, texto com o meu GitHub e LinkedIn abrem, em uma nova página, o meu perfil na respectiva rede social.
 
 ## Comites "padronizados" conforme convenção de comites:
 feat: Para uma nova funcionalidade adicionada.<br>
