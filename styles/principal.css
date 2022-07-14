@@ -1,4 +1,9 @@
 
+.diagonal {
+    width: 100%;
+    background-image: var(--bg-panel);
+}
+
 .conteudoPrincipal {
     display: flex;
     flex-direction: row;
@@ -69,5 +74,16 @@ button:hover {
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    .conteudoPrincipalSubtitulo {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .imagemProfile {
+        height: 350px;
+        width: 300px;
     }
 }

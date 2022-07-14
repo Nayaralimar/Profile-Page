@@ -17,6 +17,7 @@
 .contact div {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     gap: 8px;
@@ -29,9 +30,26 @@
     border-radius: 50px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
     .contact {
         gap: 10px;
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 560px) {
+    .contact {
+        gap: 10px;
+        font-size: 8px;
+    }
+
+    .contact div {
+        gap: 5px;
+    }
+
+    .logo {
+        height: 20px;
+        width: 20px;
+    }
+}
+
