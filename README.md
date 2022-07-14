@@ -3,13 +3,18 @@ Projeto desenvolvido para prática Front-End, funcionando como uma página de pe
 Funcionalidades: responsividade, botão de dark theme, botão me contrate realiza o download do meu currículo.
 
 ## Comites "padronizados" conforme convenção de comites:
-feat: para uma nova funcionalidade adicionada.
+feat: Para uma nova funcionalidade adicionada.<br>
+fix: Arrumando algum problema do código.<br>
+style: Estilização dos componentes/páginas.<br>
 
 ## More Examples:
-
-feat: (Nova funcionalidade)<br>
-fix: (Resoluç]ao de um bug)<br>
-style: (Estilização dos componentes/páginas)<br>
+feat: (Nova funcionalidade).<br>
+fix: (Resolução de um bug).<br>
+style: (Estilização dos componentes/páginas).<br>
+docs: (Alteração na documentação.br>
+refactor: (Refatoração de código).<br>
+test: (Testes criados para os códigos).<br>
+chore: (Atualização de tarefas e bibliotecas).<br>
 
 ### Mais Referências:
 https://www.conventionalcommits.org/
