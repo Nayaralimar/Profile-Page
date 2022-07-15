@@ -28,7 +28,7 @@ JavaScript - responsável pela funcionalidade do botão Dark Theme, onde substit
 
 ## O projeto:
 <p align="center">
-  <img width="680" height="500" src="/gifs/profile-page.gif">
+  <img width="660" height="500" src="/gifs/profile-page.gif">
 </p>
 
 <p align="center">
