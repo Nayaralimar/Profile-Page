@@ -1,3 +1,12 @@
+# O projeto:
+<p align="center">
+  <img width="660" height="500" src="/gifs/profile-page.gif">
+</p>
+
+<p align="center">
+  <img width="460" height="500" src="/gifs/profile-page-lighthouse.gif">
+</p>
+
 # Profile-Page
 Projeto desenvolvido para prática Front-End, funcionando como uma página de perfil profissional.<br>
 Funcionalidades: responsividade, botão de dark theme, botão me contrate realiza o download do meu currículo, texto com o meu GitHub e LinkedIn abrem, em uma nova página, o meu perfil na respectiva rede social.
@@ -25,12 +34,3 @@ Execute a rota em seu servidor, utilizei o Live Server (extensão do Visual Stud
 
 ## Tecnologias utilizadas - frontend:
 JavaScript - responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos.
-
-## O projeto:
-<p align="center">
-  <img width="660" height="500" src="/gifs/profile-page.gif">
-</p>
-
-<p align="center">
-  <img width="460" height="500" src="/gifs/profile-page-lighthouse.gif">
-</p>
