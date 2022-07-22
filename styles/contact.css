@@ -19,7 +19,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin: auto 25px;
     gap: 8px;
     padding: 20px 0px;
 }
@@ -30,7 +30,7 @@
     border-radius: 50px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 790px) {
     .contact {
         gap: 10px;
         font-size: 12px;
@@ -39,12 +39,13 @@
 
 @media only screen and (max-width: 560px) {
     .contact {
-        gap: 10px;
-        font-size: 8px;
-    }
-
-    .contact div {
-        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 16px;
+        margin: auto;
+        gap: 0px;
     }
 
     .logo {
