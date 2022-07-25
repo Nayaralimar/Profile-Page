@@ -62,7 +62,8 @@ button:hover {
 }
 
 .imagemProfile {
-    height: 400px;
+    height: 410px;
+    width: 350px;
     border-radius: 40px;
     margin: 20px;
 }
