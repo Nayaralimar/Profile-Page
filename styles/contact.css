@@ -30,6 +30,11 @@
     border-radius: 50px;
 }
 
+.contact-link:hover {
+    color: #f37a6c;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 790px) {
     .contact {
         gap: 10px;

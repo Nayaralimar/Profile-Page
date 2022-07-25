@@ -81,9 +81,13 @@ button:hover {
     }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
     .imagemProfile {
         height: 320px;
         width: 280px;
+    }
+
+    .conteudoPrincipalBotao {
+        margin-left: 100px;
     }
 }
