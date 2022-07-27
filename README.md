@@ -34,3 +34,6 @@ Execute a rota em seu servidor, (colocar url: http://127.0.0.1:5500/index.html),
 
 ## Tecnologias utilizadas - frontend:
 JavaScript - responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos.
+
+## GitHub Pages:
+Site publicado em: https://nayaralimar.github.io/Profile-Page/
